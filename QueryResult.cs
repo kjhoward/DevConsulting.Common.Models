@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DevConsulting.RegistrationLoginApi.Models{
+namespace DevConsulting.Common.Models{
     public class QueryResult<T>{
         public int TotalItems {get;set;}
         public IEnumerable<T> Items {get;set;}
